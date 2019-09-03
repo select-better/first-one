@@ -1,0 +1,63 @@
+.step_progress{
+	width: 340px;
+	margin:0 auto;
+	color: #333;
+	position: relative;
+}
+
+.active{
+	color:#ff4c4c;
+	border-color: #ff4c4c;
+}
+/* 对于顶上的横线*/ 
+
+.step_show{
+	margin:95px 0px 40px;
+}
+.step_show ul .stepline_1{
+    margin-left: 25px;
+    margin-right: 40px;
+}
+.step_show ul li{
+	float: left;
+    height: 3px;
+    background: #e0e0e0;
+	width: 133px;
+	text-indent: -999px;
+	overflow: hidden;
+}
+.step_show ul{
+	position:absolute;
+	top: 20px;
+	left: -3px;
+}
+/*1,2,3*/ 
+.step_show{
+	position: relative
+}
+.step_show span{
+	font-size: 26px;
+	display: inline-block;
+	border: 3px solid #333;
+	text-align:center;
+	border-radius:50%;
+	width: 25px;
+	height:25px;
+	line-height: 25px;
+	margin-top: 4px;
+}
+
+.step_one,.step_two,.step_three{
+	display: inline-block;
+	text-align:center;
+	margin-left: -26px;
+	margin-right: 122px;
+}
+.step_two{
+	margin-left: -16px;
+}
+.step_three{
+	position: absolute;
+	right:-157px;
+}
+

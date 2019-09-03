@@ -1,0 +1,60 @@
+/*注册的第一个中间部分*/ 
+form{
+	padding:0px 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+/*设置没有outline*/ 
+form input{
+	outline: none;
+}
+.tel_register {
+	font-size: 14px;
+}
+.tel_register .get_tel{
+	border: 1px solid #a5a5a5;
+	color: #333;
+}
+.tel_register p{
+	height: 24px;
+	line-height:24px;
+}
+.tel_register div{
+	margin-top: 10px;
+}
+.tel_register>p{
+	line-height: 24px;
+	height: 24px;
+}
+.tel_register input{
+	width: 300px;
+    padding: 12px 10px;
+	box-sizing: border-box;
+	color: #555;
+}
+.create_yzm span{
+	display: inline-block;
+	width: 300px;
+	padding: 12px 10px;
+	color: #555;
+	background: #fff;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+/*最下面的个*/ 
+.tel_register>a{
+	display: inline-block;
+	width: 300px;
+	padding: 12px 10px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #fff;
+	background: #ee3b3b;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+ 

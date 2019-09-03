@@ -1,0 +1,380 @@
+
+
+header{
+	height: 120px;
+	width: 100%;
+	border-bottom: 1px solid #dd00a7;
+}
+.container{
+	width:990px;
+	margin: 0 auto;
+	
+}
+.to_login{
+	float:right;
+	line-height: 120px;
+	color:#333;
+}
+.to_login a{
+	margin-left: 4px;
+	color: #2875cc;
+}
+.container>a{
+	float:left;
+	display: block;
+	background: url(../imgs/registerlogo.png) no-repeat;
+	width:300px;
+	height: 62px;
+	margin-top: 34px;
+	text-indent: -999px;
+	overflow: hidden;
+}
+.container p a:hover{
+	text-decoration: underline;
+}
+/* ----------------------------------- */
+
+.flow_box{
+	width: 890px;
+	height: 500px;
+	position: absolute;
+	top: 100px;
+	padding: 16px 0px 5px 0px;
+	border: 1px solid #eee;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+	background:#fff;
+	z-index:999;
+	left: 50%;
+	margin-left: -445px;
+}
+
+/*标题*/
+.inner_protocol h3{
+	text-align:center;
+	font-size: 16px;
+	font-weight: normal;
+	padding:7px 0px;
+}
+.inner_protocol>p{
+	line-height: 24px;
+	color:#585858;
+}
+.inner_protocol>p>b{
+	font-weight: bold;
+	font-size: 12px;
+}
+/* 里面的滚动条*/ 
+.inner_protocol{
+	padding: 0px 35px;
+}
+.inner_protocol .protocol{
+    padding-top: 15px;
+}
+.inner_protocol .protocol p{
+	width: 795px;
+    height: 75px;
+    border: 1px solid #e6e6e6;
+    overflow-y: auto;
+    padding: 0 14px 0 9px;
+    font-size: 12px;
+    line-height: 24px;
+	color: #585858;
+	margin:0 auto;
+}
+.inner_protocol .protocol a{
+	display: inline-block;
+    color: #2875cc;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+/*两个按钮*/ 
+.inner_protocol .protocol_btn a{
+	display: inline-block;
+	border: 1px solid #cacccf;
+	padding: 8px 15px;
+	color: #555;
+	margin: 10px;
+	border-radius: 3px;
+}
+.inner_protocol .protocol_btn a:hover{
+	border-color:#ff4c4c;
+	color:#ff4c4c;
+}
+.inner_protocol .protocol_btn{
+	margin-top: 14px;
+	margin-left: 300px;
+}
+.inner_protocol .protocol_btn .agree_us{
+	 border-color:#ff4c4c;
+	 color:#ff4c4c;
+} 
+.inner_protocol .protocol_btn .agree_us:hover{
+	color:#ee3b3b;
+	border-color:#ee3b3b;
+	background: #fee;
+}
+/* =========================================== */
+.step_progress{
+	width: 340px;
+	margin:0 auto;
+	color: #333;
+	position: relative;
+}
+/* 需要对span加上边框颜色 */
+.step_show .step_one span{
+	border-color: #ff4c4c;
+}       
+.active{
+	color:#ff4c4c;
+}
+/* 对于顶上的横线*/ 
+
+.step_show{
+	margin:95px 0px 40px;
+}
+.step_show ul .stepline_1{
+    margin-left: 25px;
+    margin-right: 40px;
+}
+.step_show ul li{
+	float: left;
+    height: 3px;
+    background: #e0e0e0;
+	width: 133px;
+	text-indent: -999px;
+	overflow: hidden;
+}
+.step_show ul{
+	position:absolute;
+	top: 20px;
+	left: 0px;
+}
+/*1,2,3*/ 
+.step_show{
+	position: relative
+}
+.step_show span{
+	font-size: 26px;
+	display: inline-block;
+	border: 3px solid #333;
+	text-align:center;
+	border-radius:50%;
+	width: 25px;
+	height:25px;
+	line-height: 25px;
+	margin-top: 4px;
+}
+
+.step_one,.step_two,.step_three{
+	display: inline-block;
+	text-align:center;
+	margin-left: -26px;
+	margin-right: 122px;
+}
+.step_two{
+	margin-left: -16px;
+}
+.step_three{
+	position: absolute;
+	right:-157px;
+	top: 0px;
+}
+
+/* ========================================== */
+/*注册的第一个中间部分*/ 
+form{
+	padding:0px 20px;
+	box-sizing: border-box;
+	position: relative;
+	height:306px;
+}
+/*设置没有outline*/ 
+form input{
+	outline: none;
+}
+.tel_register {
+	font-size: 14px;
+}
+.tel_register .get_tel{
+	border: 1px solid #a5a5a5;
+	color: #333;
+}
+.tel_register p{
+	height: 24px;
+	line-height:24px;
+}
+.tel_register div{
+	margin-top: 10px;
+}
+.tel_register>p{
+	line-height: 24px;
+	height: 24px;
+}
+.tel_register input{
+	width: 300px;
+    padding: 12px 10px;
+	box-sizing: border-box;
+	color: #555;
+}
+.create_yzm span{
+	cursor: pointer;
+	display: inline-block;
+	width: 300px;
+	padding: 12px 10px;
+	color: #555;
+	background: #fff;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+/*最下面的个*/ 
+.tel_register>a{
+	display: inline-block;
+	width: 300px;
+	padding: 12px 10px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #fff;
+	background: #ee3b3b;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+/* ====================== */
+.name_register input{
+	width: 300px;
+    padding: 12px 10px;
+	box-sizing: border-box;
+	color: #555;
+}
+.name_register{
+	font-size: 14px;
+}
+.name_register p{
+	height: 24px;
+	line-height:24px;
+}
+.name_register .get_password p{
+	float: left;
+	width:200px;
+}
+.name_register .get_password b{
+	line-height: 24px;
+	height: 24px;
+}
+.name_register .get_password b{
+	vertical-align: middle;
+}
+.name_register .get_password b i{
+	display: inline-block;
+	width: 20px;
+	height: 4px;
+	background: #ee3b3b;
+	margin-right: 5px;
+}
+.name_register div{
+	margin-top: 10px;
+}
+
+/*最下面的个*/ 
+.name_register>a{
+	display: inline-block;
+	width: 300px;
+	padding: 12px 10px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #fff;
+	background: #ee3b3b;
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+ 
+/* ======================================== */
+
+/*最后跳转页面*/ 
+
+.ok{
+	width: 300px;
+	height: 300px;
+}
+
+
+/*由于引过来的有margin-top是负值，选择进行抵消*/ 
+footer{
+	margin-top: 60px;
+}
+footer .container{
+	border-top: 1px solid #dedede;
+    padding-top: 40px;
+}
+
+/*将3个div给定位一样，一个显示。另两个不显示*/ 
+
+.name_register{
+	position: absolute;
+	top:0;
+}
+.ok{
+	position: absolute;
+	top:0;
+}
+.tel_register{
+	position: absolute;
+	top:0;
+}
+
+
+/* ok里面，我们进行 */
+.ok {
+	padding-top:100px;
+}
+.ok span{
+	color: #ff4c4c;
+	margin-left: 10px;
+	font-size: 24px;
+}
+.ok {
+	font-size: 16px;
+}
+.ok .by_click{
+	margin-top: 20px;
+}
+.ok .by_click a{
+	color: #2875cc;
+	font-size: 20px;
+	margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 下面的企业 */
+.other{
+	margin-top: 15px;
+}
+.other a{
+	color: #a5a5a5;
+}
+.other span{
+	vertical-align: middle;
+	margin-right: 5px;
+	color: #2875cc;
+}
+.other p{
+	vertical-align: middle;
+}

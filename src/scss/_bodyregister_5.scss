@@ -1,0 +1,32 @@
+
+/*最后跳转页面*/ 
+
+.ok{
+	width: 300px;
+	height: 300px;
+}
+
+
+/*由于引过来的有margin-top是负值，选择进行抵消*/ 
+footer{
+	margin-top: 60px;
+}
+footer .container{
+	border-top: 1px solid #dedede;
+    padding-top: 40px;
+}
+
+/*将3个div给定位一样，一个显示。另两个不显示*/ 
+
+.name_register{
+	position: absolute;
+	top:0;
+}
+.ok{
+	position: absolute;
+	top:0;
+}
+.tel_register{
+	position: absolute;
+	top:0;
+}
