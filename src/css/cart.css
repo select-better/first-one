@@ -1,0 +1,428 @@
+header .container{
+	width: 990px;
+}
+
+.middle{
+	width: 990px;
+	margin:0 auto;
+}
+
+/* 头部logo */
+
+.guomei_logo a{
+	background: url(../imgs/logo.png) no-repeat;
+	display: inline-block;
+	width: 125px;
+	height: 56px;
+	text-indent: -999px;
+	overflow: hidden;
+}
+.guomei_logo{
+	float: left;
+	margin: 32px 0px;
+}
+.top_logo h3{
+	float: left;
+	font-size: 40px;
+	color: #999;
+	margin-top: 32px;
+	margin-left: 15px;
+	padding-left:15px ;
+    border-left: 2px solid #999;
+}
+
+footer{
+	margin-top: 60x;
+	padding:40px;
+	border-top:1px solid #e71f4e;
+	background:#f7f7f7;
+}
+
+/* 设置一下最小高度距离 */
+
+article{
+	min-height: 400px;
+}
+
+
+/* 没购物车的时候 设置中间的框 */
+
+.no_deal{
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #999;
+	padding:  50px 
+}
+.no_deal span{
+	float:left;
+	font-size: 50px;
+	color: #999;
+}
+.no_shopcat{
+	float: left;
+	margin-left: 10px;
+}
+.no_shopcat b{
+   display: block;
+   line-height: 26px;
+   margin-bottom: 5px;
+   color: #888;
+}
+.no_shopcat a:nth-child(2){
+	display: inline-block;
+	padding: 5px 10px ;
+	background: #e71f4e;
+	color: white;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+.no_shopcat a:nth-child(3){
+	color: deepskyblue;
+}
+.go_mid{
+	width: 367px;
+	margin: 0 auto;
+}
+
+
+/* 对于有购物车的情况 */
+
+.cart_top{
+	height: 44px;
+    line-height: 44px;
+    background: #eee;
+    width: 988px;
+    border: 1px solid #e6e6e6;
+	border-radius: 3px;
+	color: #333;
+}
+.cart_top ul li{
+	line-height: 44px;
+}
+/*  按钮 */
+.cart_top_1 b input{
+	zoom: 130%;
+	position: absolute;
+	left: -1px;
+	z-index:2;
+	opacity: 0;
+	cursor: pointer;
+}
+.cart_top_1{
+	float:left;
+}
+ .cart_top_1 b{
+	 position: relative;
+	margin-top: 16px;
+	display: inline-block;
+	width: 12px;
+    height: 12px;
+    border: 1px solid #CCC;
+    margin: 2px 16px;
+    background-color: #FFF;
+	border-radius: 2px;
+	vertical-align: middle;
+    /* background-color:#e71f4e;  */
+	/* background:#e71f4e  url(https://css.gomein.net.cn/gmpro/2.0.0/cart/2.9.8/css/i/sprite.png?v=0.4.5) no-repeat  -564px -64px ; */
+	
+}
+.cart_top_1 b.want{
+background:#e71f4e  url(https://css.gomein.net.cn/gmpro/2.0.0/cart/2.9.8/css/i/sprite.png?v=0.4.5) no-repeat  -564px -64px ;
+border-color:  #e71f4e;
+}
+
+ .cart_top_2{
+	width: 91px;
+	float:left;
+}
+.cart_top_3{
+width: 389px;
+float:left;
+}
+ .cart_top_4{
+	width: 155px;
+	box-sizing: border-box;
+	padding: 0px 40px 0px 22px;
+	float:left;
+}
+.cart_top_5{
+	width: 80px;
+	float:left;
+}
+.cart_top_6{
+	font-size: 13px;
+	width: 154px;
+	text-align:center;
+	float:left;
+}	
+ .cart_top_7{
+	font-size: 13px;
+	float:left;
+	width: 70px;
+}	
+
+/* 中间不得 */
+
+.cart_mid{
+	margin-top: 10px;
+	border:1px solid #CCC;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+    margin-bottom: 40px;
+}
+.cart_mid .link_us{
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #ccc;
+}
+.cart_mid .link_us a{
+	display: inline-block;
+	padding-left: 30px;
+
+}
+.cart_mid .link_us a span{
+	vertical-align: middle;
+}
+
+/* 中间主体 */
+
+.part_all   .cart_top_1{
+	float: left;
+}
+.part_all {
+	padding: 20px 0px;
+}
+.part_main{
+	float: left;
+}
+.part_img a img{
+	height:80px;
+	width: 80px;
+
+}
+.part_img a{
+	display: inline-block;;
+	border:1px solid #ccc;
+}
+.part_title p{
+	height: 38px;
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: wrap;
+}
+.part_title p a{
+	color: #333;
+}
+.part_title p a:hover{
+	color: #e71f4e;
+}
+.icon_7 i{
+	border-radius: 5px;
+	display: inline-block;
+	width: 16px;
+    height: 16px;
+	background: url(https://css.gomein.net.cn/gmpro/2.0.0/cart/2.9.8/css/i/sprite.png?v=0.4.5) no-repeat;
+	background-position: -825px -78px;
+	cursor:pointer;
+	margin-top: 10px;
+}
+
+/* 中间的钱 */
+.part_price em{
+	margin-left: 5px;
+}
+/* 对于数量来说 */
+
+.part_num input{
+	width:30px;
+	text-align:center;
+	border: 1px solid #999;
+	outline:none;
+}
+.part_num span{
+	display: inline-block;
+	width: 10px ;
+	height: 18px;
+	text-align: center;
+	line-height:18px;
+	border:1px solid #999;
+	cursor: pointer;
+}
+.part_num  .add{
+	border-left: 0px;
+}
+.part_num  .reduce{
+	border-right: 0px;
+}
+.part_num p{
+	color: #e71f4e;
+	padding-left: 5px;
+}
+.part_subsum{
+	font-size: 16px;
+	font-weight: blod;
+	text-align: left;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+/* y移除 */
+.part_del strong,.part_del span{
+	display: block;
+	cursor: pointer;
+	color: #666;
+	margin-top: 5px;
+}
+.part_del strong:hover{
+	color: #e71f4e;
+}
+.part_del span:hover{
+	color: #e71f4e;
+}
+
+
+/* 对于底部的小东西 */
+.cart_bot{
+	position: relative;
+	z-index: 10000;
+	width: 100%;
+	height: 60px;
+	background: #f3f3f3;
+	line-height: 60px;
+	color: rgb(51,51,51);
+	/* margin-top: 40px;
+	margin-bottom: 20px; */
+}
+.cart_bot_left{
+	float: left;
+}
+
+.cart_bot_left .checked_del{
+	margin-left: 20px;
+	color: rgb(51,51,51);
+}
+.cart_bot_left .checked_del:hover{
+	color: #e71f4e;
+}
+
+/* 右边的 */
+.cart_bot_right{
+	float: right;
+}
+
+.cart_bot_right .cart_top_4{
+	padding-right: 0px;
+}
+.cart_bot_right .cart_top_4 em{
+	color: #e71f4e;
+	font-weight: bold;
+	display: inline-block;
+	text-align:center;
+	font-size: 14px;
+	margin: 0px 5px;
+}
+
+/* 总计的钱 */
+.sum_money{
+	float: left;
+}
+
+.sum_money i{
+	color: #e71f4e;
+	font-size: 13px;
+}
+
+.sum_money em{
+	color: #e71f4e;
+	font-weight: bold;
+	display: inline-block;
+	text-align:center;
+	font-size: 16px;
+}
+.go_sum{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 18px;
+	width: 120px;
+	background: #e71f4e;
+	color: white;
+	height: 100%;
+	text-align:center;
+	margin-left: 30px;
+}
+.go_sum:hover{
+	background: #ff5757;
+}
+
+/*  幕布 */
+html,body{
+	height:100%;
+}
+.screen{
+	widtH: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px ;
+	left: 0px ;
+	z-index: 100;
+	background: rgba(0,0,0,0.2);
+	display: none;
+	z-index:100001;
+}
+.screen_box{
+	width: 395px;
+	height: 140px;
+	background: #fff;
+	box-shadow: 0 0 23px 0 #000;
+	padding:30px;
+	box-sizing: border-box;
+	position: fixed;
+	z-index: 100001;
+}
+.screen_box>i{
+	position: absolute;
+	width: 20px;
+	cursor: pointer;
+	top: 5px;
+	right: 10px;
+	font-size: 20px;
+	color: #afafaf;
+	text-align:center;
+}
+.screen_box>i:hover{
+	color: #333;
+}
+
+.screen_icon{
+	float: left;
+	margin-right: 10px;
+	width: 39px;
+	height: 39px;
+	background: url(https://css.gomein.net.cn/gmpro/2.0.0/cart/2.9.8/css/i/sprite.png?v=0.4.5) no-repeat -746px 0;
+}
+.screen_select{
+	margin-top: 10px;
+	margin-left: 49px;
+}
+.screen_select input{
+	width: 50px;
+	height: 28px;
+	border:1px solid #999;
+	text-align:center;
+	border-radius:4px;
+	cursor: pointer;
+	outline: none;
+}
+.screen_select input:nth-child(2){
+	background: #e71f4e;
+	border-color: #e71f4e;
+	color: white;
+	margin-left: 10px;
+}
+.no_chice_select h4{
+	line-height: 40px;
+	margin-left: 70px;
+}
+.single_del .screen_select input:nth-child(2){
+	width: 90px;
+}

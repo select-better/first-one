@@ -1,0 +1,382 @@
+
+ /* 顶上图片比较大，只有这样，实在不行只能用Js了 */
+.phone_img{
+	width: 100%;
+	height: 120px;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+
+}
+ .phone_img img{
+	position: absolute;
+	left:50%;
+	margin-left: -960px;
+}
+
+/* 小导航 */
+
+.phone_nav{
+	width:100%;
+	height:30px;
+	background: #be0e34;
+}
+.phone_nav ul{
+	width: 990px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 0px 180px;
+}
+.phone_nav ul li{
+	float: left;
+	line-height: 30px;
+
+}
+
+.phone_nav ul li a{
+	color:white;
+	font-size: 14px;
+	display: block;
+	padding: 0 20px;
+}
+.phone_nav ul li:hover a{
+    background: #fe0e34;
+}
+
+
+/* 开始主体部分 */
+ /* 大方小方 */
+ .details{
+	 margin-top: 15px; 
+ }
+ .phone_show {
+	 float:left;
+ }
+ .phone_show .s_box{
+	 width: 360px;
+	 height: 360px;
+	
+	 
+ }
+ .phone_show .o_box{
+	position: relative;
+	width: 360px;
+	height: 360px;
+	border: 1px solid #afafaf;
+ }
+ .phone_show .s_box .spic{
+	 width: 360px;
+	 height: 360px;
+ }
+  .phone_show .sf{
+	position: absolute;
+	opacity: .3;
+    filter: alpha(Opacity=30);
+    width: 200px;
+    height: 200px;
+	background: #ccc;
+	top:0px;
+	left: 0px;
+	visibility: hidden;
+	cursor: crosshair;
+  }
+ .phone_show .bf{
+	position: absolute;
+	overflow: hidden;
+	left: 370px;
+	top: -1px;
+	width: 420px;
+	height: 420px;
+	border: 1px solid #afafaf;
+	display: none;
+	background: #fff;
+	z-index: 10;
+ }
+ .phone_show .bf .bpic{
+	position: absolute;
+ }
+/* 图片下面的列表 */
+ .piclist{
+	position: relative;
+    height: 54px;
+	margin: 20px 0 16px;
+	cursor: pointer;
+ }
+ .piclist_mid{
+	 position: relative;
+	 margin: 0 auto;
+	 width: 310px;
+	 overflow: hidden;
+	 height: 54px;
+ }
+ .piclist ul{
+	 position: absolute;
+	 top: 0px; 
+	 left:0px;
+ }
+ .piclist ul li{
+	 float: left;
+	 padding: 1px 5px;
+ }
+ .piclist ul li img{
+	 width: 50px;
+	 height: 50px;
+	 border: 1px solid #fff;
+ }
+ /* .piclist ul li img:hover{
+	 border: 1px solid #fe0e34;
+ } */
+ .piclist span{
+	 position: absolute;
+	 font-size: 30px;
+	 line-height:30px;
+	 color: #afafaf;
+	 top: 50%;
+	 margin-top: -15px;
+ }
+ /* .piclist span:hover{
+	 color: #5e5e5e;
+ } */
+ .piclist .left{
+	 left: 5px;
+ }
+ .piclist .right{
+	right: 5px;
+}
+
+/* 右侧的内容*/
+.phone_text{
+	float: left;
+	margin-left:30px;
+	width: 720px;
+}
+.phone_text h3{
+	color: #333;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.phone_text .price{
+	width: 690px;
+	padding: 20px 10px 20px 20px;
+	background: #efefef;
+}
+.phone_text .price_left{
+	float: left;
+}
+.phone_text .price_left span{
+	color: #afafaf;
+	letter-spacing: 4px;
+	margin-right: 20px;
+}
+.phone_text .price_left b{
+	color: #e71f4e;
+	font-size: 14px;
+	margin-right: 6px;
+}
+.phone_text .price_left em{
+	color: #e71f4e;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.phone_text .price_right{
+	float: right;
+	border-left: 1px solid #afafaf;
+	padding-left: 10px;
+}
+
+
+/* 特色服务 */
+
+.special{
+	padding: 20px 10px 20px 20px;
+}
+.special span{
+	color: #afafaf;
+	letter-spacing: 16px;
+	margin-right: 20px;
+}
+.special a{
+	color:  #069;
+	cursor: pointer;	
+	display: inline-block;
+	padding: 0px 4px 4px 30px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border:1px solid #069;
+	margin-left: 30px;
+}
+.special a:nth-child(2){
+	background: url(../imgs/bg-sprite.png) no-repeat;
+    background-position: 10px -2584px;
+}
+.special a:nth-child(3){
+	background: url(../imgs/bg-sprite.png) no-repeat;
+    background-position:  10px -2662px;
+}
+.special a:nth-child(4){
+	background: url(../imgs/bg-sprite.png) no-repeat;
+    background-position: 10px -2610px;
+}
+
+/* 送货 */
+.address{
+	padding: 5px 10px 5px 20px;
+}
+.address span{
+	color: #afafaf;
+	letter-spacing: 16px;
+	margin-right: 20px;
+}
+.address b{
+	margin:0 20px;
+	color: #5e5e5e
+}
+.address i{
+	margin-right: 20px;
+	color: #5e5e5e
+}
+/* 服务 */
+.distribution{
+	padding: 5px 10px 5px 20px;
+}
+.distribution span{
+	color: #afafaf;
+	letter-spacing: 16px;
+	margin-right: 20px;
+}
+.distribution strong{
+    margin-left: 20px;
+}
+
+.distribution b{
+	margin: 0 8px;
+	font-weight: bold;
+}
+/* 选择 */
+.choice{
+	padding: 20px 10px 20px 20px;
+}
+.choice .shop_num{
+	float: left;
+	position: relative;
+	text-align: center;
+	margin-right: 40px;
+}
+.choice .shop_num input{
+	/* display: inline-block; */
+	width: 40px; 
+	height: 42px;
+	border: 1px solid #afafaf;
+	/* text-align: center; */
+	line-height: 40px;
+	text-align:center;
+	outline: none;
+}
+.choice .shop_num .add{
+	position:absolute;
+	left: 42px;
+	top: 0px;
+	width: 15px;
+	height: 21px;
+	line-height:21px;
+	border:1px solid #afafaf;
+	border-left: 0px;
+	cursor: pointer;
+	color: #333;
+}
+.choice .shop_num .reduce{
+	position:absolute;
+	left: 42px;
+	top: 23px;
+	width: 15px;
+	height: 20px;
+	line-height:20px;
+	border:1px solid #afafaf;
+	border-left: 0px;
+	border-top: 0px;
+	cursor: pointer;
+	color: #afafaf;
+}
+.choice>i{
+	float:left;
+	padding: 10px 30px; 
+	background: #e71f4e;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	margin-right: 30px;
+}
+.choice>i:hover{
+	background: #be0e34;
+}
+.choice .tel_buy{
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+.choice .tel_buy p{
+	padding: 10px 0;
+    width: 98px;
+	color: #5e5e5e;
+	line-height: 22px;
+	height: 22px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    /* position: relative; */
+}
+
+.choice .tel_buy b{
+	padding: 5px 14px;
+    margin-right: 8px;
+    margin-left: 6px;
+    background: url(../imgs/bg-sprite.png) no-repeat;
+    background-position: 0 -2842px;
+}
+.choice .tel_buy div{
+	position: absolute;
+	width: 98px;
+	height:98px;
+	border: 1px solid #ccc;
+	border-top: 0px;
+	display: none; 
+	background: white;
+}
+.choice .tel_buy div img{
+	margin:4px auto;
+}
+
+.choice .tel_buy:hover div{
+	display: block
+}
+
+.remind{
+	margin-top: 30px;
+	margin-left: 20px;
+	color: #888;
+}
+.details{
+	min-height: 500px;
+}
+
+.getRed{
+	border-color: #e71f4e;
+}
+
+/* 去购物车 */
+.obox{
+	position: fixed;
+	right: 20px;;
+	top: 300px;
+}
+.is_to_cart{
+	display: inline-block;
+	width:100px;
+	height: 30px;
+	background: #e71f4e;
+	color: white;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 400px;
+}

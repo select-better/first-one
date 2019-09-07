@@ -217,17 +217,31 @@ form input{
 	color: #555;
 }
 .create_yzm span{
+	display: inline-block;
+	width: 140px;
+	padding: 12px 0px;
+	color: #555;
+	background: #fff;
+	border: 1px solid #ddd;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+.create_yzm i{
 	cursor: pointer;
 	display: inline-block;
-	width: 300px;
+	width: 140px;
 	padding: 12px 10px;
 	color: #555;
 	background: #fff;
 	border: 1px solid #ddd;
 	box-sizing: border-box;
 	text-align: center;
+	margin-left: 18px;
+	vertical-align: top;
 }
-
 /*最下面的个*/ 
 .tel_register>a{
 	display: inline-block;
@@ -262,6 +276,7 @@ form input{
 .name_register .get_password b{
 	line-height: 24px;
 	height: 24px;
+	display: none;
 }
 .name_register .get_password b{
 	vertical-align: middle;
@@ -347,15 +362,6 @@ footer .container{
 	font-size: 20px;
 	margin-left: 5px;
 }
-
-
-
-
-
-
-
-
-
 
 
 

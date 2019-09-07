@@ -5,9 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+	<title>登录</title>
 	<link rel="stylesheet" href="../css/login.css">
 	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/index.css"> 
+	<script src="../js/jquery.js"></script>
 </head>
 
 <body>
@@ -37,7 +39,7 @@
 						</div>
 					</div>
 					<div class="inf_mid">
-						<div class="first_login" style="display: none;">
+						<div class="first_login">
 							<div class="code_pic">
 								<div class="code">
 									<img src="https://login.gome.com.cn/getQrcode.no?width=165&height=165" alt="">
@@ -50,10 +52,10 @@
 							<p>扫一扫登录</p>
 							<a href="register.html">免费注册</a>
 						</div>
-						<div class="second_login">
+						<div class="second_login" style="display: none">
 							<p class="warn" style="display:none"><em></em>公众场所不建议自动登录，以防账户丢失</p>
 							<div class="txt">
-								<input type="text" placeholder="账号">
+								<input type="text" placeholder="账号/手机号">
 								<p></p>
 							</div>
 							<div class="pass">
@@ -82,13 +84,19 @@
 							<li><a href="#">极信通</a></li>
 							<li><a href="#" class="no_border">支付宝</a></li>
 						</ul>
-						<span>&lt;</span>
+						<span class="inf_btn">&lt;</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+    <footer>
+		<div class="middle">
 
+		</div>
+	</footer>
+	<script src="../js/cookie.js"></script>
+	<script src="../js/login.js"></script>
 </body>
 
 </html>

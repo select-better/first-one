@@ -121,6 +121,7 @@ header{
 .code_pic{
 	width: 320px;
 	height: 167px;
+	position: relative;
 }
 .code,.code img{
 	width: 165px;
@@ -129,11 +130,10 @@ header{
 .code{
 	position: absolute;
 	/* hover的时候到left：１９ */
-	left:50%;
-	margin-left:  -82px;
-	top:25px;
+	left:74px;
+	top:0px;
 	z-index: 2;
-
+ 
 }
 .smp_img{
 	float: right;
@@ -195,6 +195,7 @@ header{
     width: 268px;
 	height: 25px;
 	margin-top: 10px;
+	font-size: 16px;
 }
 .txt p,.pass p{
 	height: 18px;
@@ -237,6 +238,9 @@ header{
 	letter-spacing: 6px;
 	margin: 10px 11px;
 }
+.go_index:hover{
+	background: #e3101e;
+}
 .by_tel{
 	text-align: left;
 	text-indent:10px;
@@ -261,6 +265,12 @@ header{
 	overflow: hidden;
 	/* height: 54px; */
 }
+.height_change{
+	height: 54px;
+}
+.rot{
+    transform: rotate(90deg);
+}
 .inf_bot li{
 	float: left;
 
@@ -275,7 +285,7 @@ header{
 .inf_bot li .no_border{
 	border-right: 0px;
 }
-.inf_bot span{
+.inf_btn{
 	position: absolute;
 	right: 20px;
 	top: 7px;
@@ -288,4 +298,10 @@ header{
 	border:1px solid #cacada;
 	/* 点击后旋转成90deg */
 	transform: rotate(-90deg);
+}
+
+
+/* 对于底部要移动空隙 */
+footer{
+	margin-top: 50px;
 }
